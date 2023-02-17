@@ -1,0 +1,79 @@
+*{
+    font-family: system-ui;
+   
+   
+
+}
+
+body{
+ background-image: url(ankit.jpeg.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+.box{
+    align-items: center;
+    min-height: 90vh;
+    margin-top: 1px;
+}
+
+.input{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    min-height: 5vh;
+    border-radius: 10px;
+    background: rgba(88, 54, 54, 0.2);
+    font-size: 25px;
+   
+}
+.right{
+   text-align-last: center;
+   font-weight: bold;
+   color: black;
+}
+h{
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+  
+    margin-top: 150px;
+}
+.submit{
+    text-align: center;
+    font-size: 15px;
+   color:black;
+  cursor: pointer;
+  transition: 0.3s;
+  box-sizing: border-box;
+  bottom: 23px;
+ 
+}
+.h{
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+  
+    margin-top: 0px;
+}
+
+.main {
+    color: yellowgreen ;
+}
+ul li{
+    display: inline-block ;
+}
+ul li a{
+    color: white;
+    padding: 5px;
+    border: 1px solid;
+    transition: 0.5s;
+   
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
